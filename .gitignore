@@ -1,0 +1,14 @@
+# 업스트림 클론 — 런북 Phase 1/2 대로 재생성 가능 (각자 .git 보유, 대용량)
+/BEVFormer/
+/mmdetection3d/
+
+# 대용량·재현 가능 산출물 (혹시 위 제외를 풀 경우 대비한 이중 방어)
+*.pth
+*.pkl
+data/
+ckpts/
+work_dirs/
+viz/
+test/
+__pycache__/
+*.pyc
